@@ -1,0 +1,43 @@
+<%-include("partials/header.ejs") %>
+
+<br>
+<br>
+
+<body style="background-color: #F7FBE1;">
+    <div>
+        <h2 style="text-align: center;">Contact</h2>
+
+        <form action="/submit" method="POST"
+            class="form_div">
+
+            <input type="text" id="name" name="name" placeholder="Name"
+                style="width: 80vw;">
+            <br />
+            <br />
+
+            <input type="email" id="email" name="email" placeholder="Email"
+                style="width: 80vw;">
+            <br />
+            <br />
+
+            <textarea id="message" name="message" rows="4" cols="50"
+                placeholder="Message" style="width: 80vw;"></textarea>
+            <br />
+            <br />
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<%-include("partials/footer.ejs") %>

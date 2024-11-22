@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image_color{
+    background-color: #FFF3C7;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #F1C27B, #FFD89C, #A2CDB0 ,#85A389);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.form_div{
+    text-align: center;
+}
+
+.b_d_background{
+    background-color: #B4E197;
+    border: 1px solid #FFF3C7; /* Border style */
+    border-radius: 10px; /* Rounded corners for the div */
+}
+
+.blurry_border{
+    box-shadow: 0 0 10px 5px rgba(65, 176, 110, 0.5); /* Add a blurred shadow */
+    outline: 5px solid transparent; /* Use an outline for blurred border */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
